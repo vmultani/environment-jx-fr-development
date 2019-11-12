@@ -1,0 +1,10 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: jx-fr-development
+pipelineConfig:
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: jx-fr-development
+  - name: CHART_REPOSITORY
+    value: https://chartmuseum.flexreceipts.com
+  pipelines: {}
